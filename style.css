@@ -1,7 +1,7 @@
 
    body {
        background: ___________________;
-       color: navy;
+       color: rgb(56, 102, 146);
        padding: 10px;
        font-family: arial;
    }
@@ -21,7 +21,7 @@
    h1 {
        display: flex;
        align-items: center;
-       color: navy;
+       color: rgb(154, 204, 228);
        flex: 1;
        margin: 0;
    }
@@ -35,7 +35,7 @@
    }
    a {
        text-decoration: none;
-       color:navy;
+       color:rgb(112, 112, 212);
    }
 
    /* main container area beneath menu */
@@ -57,7 +57,7 @@
 
    /* portfolio styles */
    #interests {
-       border: 3px gray solid;
+       border: 3px rgb(33, 71, 121) solid;
        padding: 8px;
    }
    h2, h3 {
