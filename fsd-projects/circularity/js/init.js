@@ -22,6 +22,7 @@ var init = function (window) {
         // TODO 1 : Declare and initialize our variables
 var circle
 var circles = []
+
         // TODO 2 : Create a function that draws a circle 
 function drawCircle() {
   circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
@@ -36,6 +37,16 @@ function drawCircle() {
         }
        
         // TODO 3 : Call the drawCircle() function
+drawCircle()
+drawCircle()
+
+drawCircle()
+
+drawCircle()
+
+drawCircle()
+
+
 
 
 
@@ -105,4 +116,5 @@ if((typeof process !== 'undefined') &&
     (typeof process.versions.node !== 'undefined')) {
     // here, export any references you need for tests //
     module.exports = init;
+}
 }
